@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+    <ActionDesign>
+        <Actions>
+            <Action Id="DialogOK" ValidationContexts="AddViewVariantContext" />
+        </Actions>
+        <ActionToContainerMapping>
+            <ActionContainer Id="View">
+                <ActionLink ActionId="UserViewVariants" Index="1" />
+                <ActionLink ActionId="ChangeVariant" Index="2" />
+            </ActionContainer>
+        </ActionToContainerMapping>
+    </ActionDesign>
+    <Templates>
+        <!--Dennis: This customization will work for Windows Forms only.-->
+        <Template Id="DevExpress.ExpressApp.Win.Templates.PopupForm" IsNewNode="True">
+            <FormStates IsNewNode="True">
+                <FormState Id="ViewVariantParameterObject_DetailView" State="Normal" Width="300" Height="150" IsNewNode="True" />
+            </FormStates>
+        </Template>
+    </Templates>
+    <Localization IsNewNode="True">
+        <LocalizationGroup Name="Texts" IsNewNode="True">
+            <LocalizationItem Name="DefaultViewVariantCaption" Value="Default" IsNewNode="True" />
+            <LocalizationItem Name="NewViewVariantParameterCaption" Value="Specify caption for a new view variant" IsNewNode="True" />
+            <LocalizationItem Name="EditViewVariantParameterCaption" Value="Edit caption for the current view variant" IsNewNode="True" />
+        </LocalizationGroup>
+    </Localization>
+</Application>
