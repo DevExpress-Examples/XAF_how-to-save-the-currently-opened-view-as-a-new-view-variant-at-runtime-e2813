@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5426BD0E-BAE5-4C69-BBD8-50CD9DB7F3B3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>E2813.Demo.Win</AssemblyName>
+    <ApplicationIcon>ExpressApp.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EasyTest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\EasyTest\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DefineConstants>EASYTEST=True</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.ExpressApp.EasyTest.WinAdapter.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.ExpressApp.EasyTest.WinAdapter.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.ScriptRecorder.v12.2, Version=12.2.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.ExpressApp.ScriptRecorder.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.ScriptRecorder.Win.v12.2, Version=12.2.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.ExpressApp.ScriptRecorder.Win.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.ViewVariantsModule.v12.2, Version=12.2.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.ExpressApp.ViewVariantsModule.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.Utils.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.BonusSkins.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v12.2.Core">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.Printing.v12.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.Data.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Xpo.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.ExpressApp.Xpo.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.ExpressApp.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Images.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.ExpressApp.Images.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Objects.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.ExpressApp.Objects.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Security.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.ExpressApp.Security.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Validation.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.ExpressApp.Validation.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Validation.Win.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.ExpressApp.Validation.Win.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Win.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.ExpressApp.Win.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.Base.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.Persistent.Base.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.BaseImpl.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.Persistent.BaseImpl.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.Xpo.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.XtraGrid.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.XtraBars.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.XtraEditors.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.XtraLayout.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v12.2">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Workers\Worker79\TestFolder\Dlls\12.2.2\DevExpress.XtraNavBar.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CodeCentralExampleInMemoryDataStoreProvider.vb" />
+    <Compile Include="Program.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinApplication.resx">
+      <DependentUpon>WinApplication.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WinApplication.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinApplication.Designer.vb">
+      <DependentUpon>WinApplication.vb</DependentUpon>
+    </Compile>
+    <None Include="App.config" />
+    <Content Include="Model.xafml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExpressApp.ico" />
+  </ItemGroup>
+  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dennis.UserViewVariants\Dennis.UserViewVariants.vbproj">
+      <Project>{139CB60F-3DF5-4566-8494-8E06FEDD8DAC}</Project>
+      <Name>Dennis.UserViewVariants</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
