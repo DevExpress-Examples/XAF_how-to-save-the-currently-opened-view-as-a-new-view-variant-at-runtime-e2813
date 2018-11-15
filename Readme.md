@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [E2813.ets](./CS/UserViewVariants/Functional Tests/E2813.ets) (VB: [E2813.ets](./VB/UserViewVariants/Functional Tests/E2813.ets))
+* [Model.DesignedDiffs.xafml](./CS/UserViewVariants/Model.DesignedDiffs.xafml) (VB: [Model.DesignedDiffs.xafml](./VB/UserViewVariants/Model.DesignedDiffs.xafml))
+* **[UserViewVariantsController.cs](./CS/UserViewVariants/UserViewVariantsController.cs) (VB: [UserViewVariantsController.vb](./VB/UserViewVariants/UserViewVariantsController.vb))**
+* [ViewVariantParameterObject.cs](./CS/UserViewVariants/ViewVariantParameterObject.cs) (VB: [ViewVariantParameterObject.vb](./VB/UserViewVariants/ViewVariantParameterObject.vb))
+<!-- default file list end -->
 # How to save the currently opened View as a new View Variant at runtime
 
 
