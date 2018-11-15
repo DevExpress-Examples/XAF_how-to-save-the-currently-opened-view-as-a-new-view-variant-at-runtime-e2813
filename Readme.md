@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Config.xml](./CS/Dennis.UserViewVariants/Functional Tests/Config.xml) (VB: [Config.xml](./VB/Dennis.UserViewVariants/Functional Tests/Config.xml))
+* [E2813.ets](./CS/Dennis.UserViewVariants/Functional Tests/E2813.ets) (VB: [E2813.ets](./VB/Dennis.UserViewVariants/Functional Tests/E2813.ets))
+* [Module.Designer.cs](./CS/Dennis.UserViewVariants/Module.Designer.cs) (VB: [Module.Designer.vb](./VB/Dennis.UserViewVariants/Module.Designer.vb))
+* [UserViewVariantsController.cs](./CS/Dennis.UserViewVariants/UserViewVariantsController.cs) (VB: [UserViewVariantsController.vb](./VB/Dennis.UserViewVariants/UserViewVariantsController.vb))
+* [ViewVariantParameterObject.cs](./CS/Dennis.UserViewVariants/ViewVariantParameterObject.cs) (VB: [ViewVariantParameterObject.vb](./VB/Dennis.UserViewVariants/ViewVariantParameterObject.vb))
+<!-- default file list end -->
 # How to save the currently opened View as a new View Variant at runtime
 
 
